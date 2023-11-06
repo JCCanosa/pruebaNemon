@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 20px;
+}
+
+.formulari{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulari label{
+    font-size: small;
+    font-weight: bold;
+}
+
+.formulari input:not(input[type='sumit']){
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+} 
+
+.formulari input[type='submit']{
+    background-color: blueviolet;
+    color: white;
+}
+
+.formulari input[type='submit']:hover{
+    background-color: rgb(90, 2, 172);
+    color: white;
+}
+
+.missatge{
+    margin: 35px;
+}
+
+.missatge-estatic{
+    font-weight: bold;
+    margin-top: 5px;
+}

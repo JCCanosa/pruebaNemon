@@ -1,0 +1,10 @@
+@media screen and (max-width: 510px) {
+    body{
+        display: block;
+    }
+
+    .missatge{
+        margin: 0;
+        margin-top: 20px;
+    }
+}
